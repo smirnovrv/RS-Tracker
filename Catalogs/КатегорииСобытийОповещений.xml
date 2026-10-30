@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="6997525f-9cd6-4ace-b829-c6142c32d454">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КатегорииСобытийОповещений" category="Object">
+				<xr:TypeId>777a933b-3f44-44a4-b451-d93b094d1436</xr:TypeId>
+				<xr:ValueId>84cd79b1-f49f-49bd-86cf-cb722a4e1dde</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КатегорииСобытийОповещений" category="Ref">
+				<xr:TypeId>3fdb0fe4-6843-49cb-a9a7-e977cd942aaa</xr:TypeId>
+				<xr:ValueId>cec1026d-a2fa-473c-a176-74cb0b2252eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КатегорииСобытийОповещений" category="Selection">
+				<xr:TypeId>031d3eb4-af3e-4fdb-8287-4fbde25721ea</xr:TypeId>
+				<xr:ValueId>17a62b7e-e9ca-4dfa-bd6e-5e911bdafc69</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КатегорииСобытийОповещений" category="List">
+				<xr:TypeId>963ff8fc-9c32-42cd-80da-f39349e858bf</xr:TypeId>
+				<xr:ValueId>e6ab147c-a369-4bd4-ac06-e9a4a485b4b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КатегорииСобытийОповещений" category="Manager">
+				<xr:TypeId>20364611-c4bf-4d25-b88f-a45602bec776</xr:TypeId>
+				<xr:ValueId>ed489416-0016-4b06-a39b-edd4cff4f20d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КатегорииСобытийОповещений</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0fd32a7c-2f6e-4e04-9f57-06f001732368</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

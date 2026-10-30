@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="32a6152e-9cb9-406e-80d3-aa4c54af1cf2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.рс_СтатусыТехЗаданий" category="Ref">
+				<xr:TypeId>790409a5-ee5e-44c8-a53f-d2b18017f8e7</xr:TypeId>
+				<xr:ValueId>26e6abd6-1f27-4090-8773-68dfd74af182</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.рс_СтатусыТехЗаданий" category="Manager">
+				<xr:TypeId>dfd698bc-6a45-4496-ad1c-2ab2ea21b665</xr:TypeId>
+				<xr:ValueId>a331fa26-1dfd-4a2b-ab72-3f742383ffe7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.рс_СтатусыТехЗаданий" category="List">
+				<xr:TypeId>41f86a0f-ac25-492d-87d5-95498cc8bc02</xr:TypeId>
+				<xr:ValueId>513ece08-9c70-458a-a69b-7b8d6c73ddf9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>рс_СтатусыТехЗаданий</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статусы тех заданий</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="54dd8278-d12f-428a-b685-e477290dc351">
+				<Properties>
+					<Name>Бэклог</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Бэклог</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4a8745f3-cd9b-485f-b718-b27e263ec385">
+				<Properties>
+					<Name>ВРаботу</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В работу</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4c1bc109-cda9-4ac3-a7c6-74846cfbb489">
+				<Properties>
+					<Name>Выполняется</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполняется</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3c5607cc-61a9-4b84-8aa2-730a0a4e5b67">
+				<Properties>
+					<Name>Тестирование</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тестирование</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="952d7b41-2e96-4c80-9599-a11bcae8eeb3">
+				<Properties>
+					<Name>Сделаны</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сделаны</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="244a0fdf-c080-4f05-8ab9-799bfdfe304b">
+				<Properties>
+					<Name>Отложена</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отложена</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1f20689c-5780-4db1-90bc-4e03c4a34bcc">
+				<Properties>
+					<Name>Уточнение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уточнение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

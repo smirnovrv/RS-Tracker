@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="НетИНН_нетКИ" id="1">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.НетИНН_нетКИ</CommandName>
+				<ExtendedTooltip name="НетИНН_нетКИРасширеннаяПодсказка" id="2"/>
+			</Button>
+			<Button name="ФормаПроверитьИНН" id="3">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПроверитьИНН</CommandName>
+				<ExtendedTooltip name="ФормаПроверитьИННРасширеннаяПодсказка" id="4"/>
+			</Button>
+			<Button name="ФормаИННСодержитЦифры" id="7">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ИННСодержитЦифры</CommandName>
+				<ExtendedTooltip name="ФормаИННСодержитЦифрыРасширеннаяПодсказка" id="8"/>
+			</Button>
+			<Button name="ФормаСпецСимволы" id="44">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.СпецСимволы</CommandName>
+				<ExtendedTooltip name="ФормаСпецСимволыРасширеннаяПодсказка" id="45"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<Table name="Табл" id="9">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Табл</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблКонтекстноеМеню" id="10"/>
+			<AutoCommandBar name="ТаблКоманднаяПанель" id="11">
+				<ChildItems>
+					<Button name="ТаблКомандаЗаполнить" id="37">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.КомандаЗаполнить</CommandName>
+						<ExtendedTooltip name="ТаблКомандаЗаполнитьРасширеннаяПодсказка" id="38"/>
+					</Button>
+					<Button name="ТаблНаименованиеИННКПП" id="39">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.НаименованиеИННКПП</CommandName>
+						<ExtendedTooltip name="ТаблНаименованиеИННКППРасширеннаяПодсказка" id="40"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ТаблРасширеннаяПодсказка" id="12"/>
+			<SearchStringAddition name="ТаблСтрокаПоиска" id="13">
+				<AdditionSource>
+					<Item>Табл</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблСтрокаПоискаКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="ТаблСтрокаПоискаРасширеннаяПодсказка" id="15"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблСостояниеПросмотра" id="16">
+				<AdditionSource>
+					<Item>Табл</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблСостояниеПросмотраКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="ТаблСостояниеПросмотраРасширеннаяПодсказка" id="18"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблУправлениеПоиском" id="19">
+				<AdditionSource>
+					<Item>Табл</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблУправлениеПоискомКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="ТаблУправлениеПоискомРасширеннаяПодсказка" id="21"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ТаблКонтрагент" id="41">
+					<DataPath>Табл.Контрагент</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблКонтрагентКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ТаблКонтрагентРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="ТаблНаименование" id="25">
+					<DataPath>Табл.Наименование</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблНаименованиеКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ТаблНаименованиеРасширеннаяПодсказка" id="27"/>
+				</InputField>
+				<InputField name="ТаблИНН" id="31">
+					<DataPath>Табл.ИНН</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблИННКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ТаблИННРасширеннаяПодсказка" id="33"/>
+				</InputField>
+				<InputField name="ТаблКПП" id="34">
+					<DataPath>Табл.КПП</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблКППКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ТаблКППРасширеннаяПодсказка" id="36"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РС_ПриведениеКонтрагентовВНорму</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Табл" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Табл</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Контрагент" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:TypeId>3c35992b-6e37-4e56-8069-f1ecd76cfea3</v8:TypeId>
+					</Type>
+				</Column>
+				<Column name="Наименование" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НаименованиеПолное" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование полное</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИНН" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="КПП" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КПП</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="НетИНН_нетКИ" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нет ИНН нет КИ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нет ИНН нет КИ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НетИНН_нетКИ</Action>
+		</Command>
+		<Command name="ЗаполнитьСправочник2" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить справочник2</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить справочник2</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьСправочник2</Action>
+		</Command>
+		<Command name="ПроверитьИНН" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить ИНН</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить ИНН</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьИНН</Action>
+		</Command>
+		<Command name="ИННСодержитЦифры" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ИНН Содержит цифры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ИННСодержит цифры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИННСодержитЦифры</Action>
+		</Command>
+		<Command name="НаименованиеИННКПП" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование ИНН КПП</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование ИННКПП</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НаименованиеИННКПП</Action>
+		</Command>
+		<Command name="КомандаЗаполнить" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаЗаполнить</Action>
+		</Command>
+		<Command name="СпецСимволы" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Спец символы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Спец символы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СпецСимволы</Action>
+		</Command>
+	</Commands>
+</Form>

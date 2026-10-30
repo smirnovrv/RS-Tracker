@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаВыполнитьЗаполнение" id="19">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВыполнитьЗаполнение</CommandName>
+				<ExtendedTooltip name="ФормаВыполнитьЗаполнениеРасширеннаяПодсказка" id="20"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="КоличествоЗаписей" id="21">
+			<DataPath>КоличествоЗаписей</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество записей</v8:content>
+				</v8:item>
+			</Title>
+			<Width>10</Width>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MaxWidth>10</MaxWidth>
+			<HorizontalStretch>false</HorizontalStretch>
+			<ContextMenu name="КоличествоЗаписейКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="КоличествоЗаписейРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<Table name="ТабРезультата" id="1">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ТабРезультата</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТабРезультатаКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ТабРезультатаКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="ТабРезультатаЗаполнить" id="17">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Заполнить</CommandName>
+						<ExtendedTooltip name="ТабРезультатаЗаполнитьРасширеннаяПодсказка" id="18"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ТабРезультатаРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ТабРезультатаСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>ТабРезультата</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТабРезультатаСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ТабРезультатаСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТабРезультатаСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>ТабРезультата</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТабРезультатаСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ТабРезультатаСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТабРезультатаУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>ТабРезультата</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТабРезультатаУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТабРезультатаУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ТабРезультатаСсылка" id="14">
+					<DataPath>ТабРезультата.Ссылка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТабРезультатаСсылкаКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ТабРезультатаСсылкаРасширеннаяПодсказка" id="16"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РС_ЗаполнитьОГРН</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТабРезультата" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таб результата</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Ссылка" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:TypeId>35372d46-cb28-4589-b2b1-e620376d40c6</v8:TypeId>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="КоличествоЗаписей" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество записей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Заполнить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить контрагентами без ОГРН, кроме помеченных на удаление и ликвидированных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Заполнить</Action>
+		</Command>
+		<Command name="ВыполнитьЗаполнение" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить ОГРН по ИНН из сервиса egrul.nalog.ru и записать контрагентов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьЗаполнение</Action>
+		</Command>
+	</Commands>
+</Form>
