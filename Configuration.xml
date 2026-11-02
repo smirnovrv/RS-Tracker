@@ -58,7 +58,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.РС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП СмирновРВ</Vendor>
-			<Version>3.5.28</Version>
+			<Version>3.5.30</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -140,6 +140,7 @@
 			<DataProcessor>РС_ЗаполнитьДопольнительныеОКВЭД2</DataProcessor>
 			<DataProcessor>РС_ПриведениеКонтрагентовВНорму</DataProcessor>
 			<DataProcessor>рс_Документация</DataProcessor>
+			<DataProcessor>рс_ПерезаписьСправочника</DataProcessor>
 			<DataProcessor>РС_ЗаполнитьОГРН</DataProcessor>
 			<DataProcessor>РС_ВыручкаПоИНН</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>

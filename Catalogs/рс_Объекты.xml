@@ -422,17 +422,17 @@
 			</Attribute>
 			<TabularSection uuid="1afb194d-20aa-42b4-9560-7c184241526e">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.рс_Объекты.рс_Реквизиты" category="TabularSection">
+					<xr:GeneratedType name="CatalogTabularSection.рс_Объекты.рсРеквизиты" category="TabularSection">
 						<xr:TypeId>4c45847f-d9f6-4597-a793-c5d892be2a50</xr:TypeId>
 						<xr:ValueId>d280ab34-290a-4aec-9bf2-8ca415872b7c</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.рс_Объекты.рс_Реквизиты" category="TabularSectionRow">
+					<xr:GeneratedType name="CatalogTabularSectionRow.рс_Объекты.рсРеквизиты" category="TabularSectionRow">
 						<xr:TypeId>d69c037c-38c2-4bec-9cbc-be76763da086</xr:TypeId>
 						<xr:ValueId>68d38b8b-4b27-43ee-accb-1804640fc88e</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>рс_Реквизиты</Name>
+					<Name>рсРеквизиты</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -448,7 +448,7 @@
 				<ChildObjects>
 					<Attribute uuid="8326b63f-0cd8-416b-bc49-292a4aa106f3">
 						<Properties>
-							<Name>рс_ТабличнаяЧасть</Name>
+							<Name>рсТабличнаяЧасть</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>

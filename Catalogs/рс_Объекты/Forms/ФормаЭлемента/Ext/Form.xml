@@ -206,7 +206,7 @@
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
-									<DataPath>Объект.рс_Реквизиты</DataPath>
+									<DataPath>Объект.рсРеквизиты</DataPath>
 									<RowFilter xsi:nil="true"/>
 									<ContextMenu name="рс_РеквизитыКонтекстноеМеню" id="26"/>
 									<AutoCommandBar name="рс_РеквизитыКоманднаяПанель" id="27">
@@ -245,48 +245,48 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<LabelField name="рс_РеквизитыНомерСтроки" id="38">
-											<DataPath>Объект.рс_Реквизиты.LineNumber</DataPath>
+											<DataPath>Объект.рсРеквизиты.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="рс_РеквизитыНомерСтрокиКонтекстноеМеню" id="39"/>
 											<ExtendedTooltip name="рс_РеквизитыНомерСтрокиРасширеннаяПодсказка" id="40"/>
 										</LabelField>
 										<InputField name="рс_РеквизитыВидРеквизита" id="63">
-											<DataPath>Объект.рс_Реквизиты.ВидРеквизита</DataPath>
+											<DataPath>Объект.рсРеквизиты.ВидРеквизита</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="рс_РеквизитыВидРеквизитаКонтекстноеМеню" id="64"/>
 											<ExtendedTooltip name="рс_РеквизитыВидРеквизитаРасширеннаяПодсказка" id="65"/>
 										</InputField>
-										<InputField name="рс_Реквизитырс_ТабличнаяЧасть" id="41">
-											<DataPath>Объект.рс_Реквизиты.рс_ТабличнаяЧасть</DataPath>
+										<InputField name="рс_РеквизитырсТабличнаяЧасть" id="41">
+											<DataPath>Объект.рсРеквизиты.рсТабличнаяЧасть</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="рс_Реквизитырс_ТабличнаяЧастьКонтекстноеМеню" id="42"/>
-											<ExtendedTooltip name="рс_Реквизитырс_ТабличнаяЧастьРасширеннаяПодсказка" id="43"/>
+											<ContextMenu name="рс_РеквизитырсТабличнаяЧастьКонтекстноеМеню" id="42"/>
+											<ExtendedTooltip name="рс_РеквизитырсТабличнаяЧастьРасширеннаяПодсказка" id="43"/>
 										</InputField>
 										<InputField name="рс_РеквизитыИмя" id="44">
-											<DataPath>Объект.рс_Реквизиты.Имя</DataPath>
+											<DataPath>Объект.рсРеквизиты.Имя</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="рс_РеквизитыИмяКонтекстноеМеню" id="45"/>
 											<ExtendedTooltip name="рс_РеквизитыИмяРасширеннаяПодсказка" id="46"/>
 										</InputField>
 										<InputField name="рс_РеквизитыТипРеквизита" id="66">
-											<DataPath>Объект.рс_Реквизиты.ТипРеквизита</DataPath>
+											<DataPath>Объект.рсРеквизиты.ТипРеквизита</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="рс_РеквизитыТипРеквизитаКонтекстноеМеню" id="67"/>
 											<ExtendedTooltip name="рс_РеквизитыТипРеквизитаРасширеннаяПодсказка" id="68"/>
 										</InputField>
 										<InputField name="рс_РеквизитыТипОбъектовМетаданных" id="47">
-											<DataPath>Объект.рс_Реквизиты.ТипОбъектовМетаданных</DataPath>
+											<DataPath>Объект.рсРеквизиты.ТипОбъектовМетаданных</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="рс_РеквизитыТипОбъектовМетаданныхКонтекстноеМеню" id="48"/>
 											<ExtendedTooltip name="рс_РеквизитыТипОбъектовМетаданныхРасширеннаяПодсказка" id="49"/>
 										</InputField>
 										<CheckBoxField name="рс_РеквизитыОбязательный" id="50">
-											<DataPath>Объект.рс_Реквизиты.Обязательный</DataPath>
+											<DataPath>Объект.рсРеквизиты.Обязательный</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="рс_РеквизитыОбязательныйКонтекстноеМеню" id="51"/>
@@ -482,7 +482,7 @@
 ИЗ
 	Справочник.рс_ТехническоеЗадание КАК рс_ТехническоеЗадание
 ГДЕ
-	рс_ТехническоеЗадание.рс_Объект = &amp;рс_Объект
+	рс_ТехническоеЗадание.рсОбъект = &amp;рс_Объект
 
 ОБЪЕДИНИТЬ ВСЕ
 

@@ -7714,7 +7714,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>рс_Реквизиты</v8:content>
+							<v8:content>рсРеквизиты</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -7731,7 +7731,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>рс_ТабличнаяЧасть</v8:content>
+							<v8:content>рсТабличнаяЧасть</v8:content>
 						</v8:item>
 					</tl>
 				</c>
