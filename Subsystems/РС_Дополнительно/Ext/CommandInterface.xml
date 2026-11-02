@@ -37,9 +37,6 @@
 		<Command name="Catalog.РС_Файлы.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="DataProcessor.рс_ПерезаписьСправочника.StandardCommand.Open">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
 		<Command name="0:004cad06-0b3b-4a0a-8310-4a0702559caa">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>

@@ -89,7 +89,7 @@
 		<ChildObjects>
 			<Attribute uuid="d7faa816-04f2-424d-a6b5-bbae0d1d9b14">
 				<Properties>
-					<Name>рсОбъект</Name>
+					<Name>рс_Объект</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

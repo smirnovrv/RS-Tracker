@@ -79,10 +79,10 @@
 					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
 				</LabelField>
-				<LabelField name="рсОбъект" id="22">
-					<DataPath>Список.рсОбъект</DataPath>
-					<ContextMenu name="рсОбъектКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="рсОбъектРасширеннаяПодсказка" id="24"/>
+				<LabelField name="рс_Объект" id="22">
+					<DataPath>Список.рс_Объект</DataPath>
+					<ContextMenu name="рс_ОбъектКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="рс_ОбъектРасширеннаяПодсказка" id="24"/>
 				</LabelField>
 				<LabelField name="Раздел" id="25">
 					<DataPath>Список.Раздел</DataPath>

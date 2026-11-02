@@ -130,12 +130,12 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="63"/>
 									<ChildItems>
-										<InputField name="рсОбъект" id="7">
-											<DataPath>Объект.рсОбъект</DataPath>
+										<InputField name="рс_Объект" id="7">
+											<DataPath>Объект.рс_Объект</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-											<ContextMenu name="рсОбъектКонтекстноеМеню" id="8"/>
-											<ExtendedTooltip name="рсОбъектРасширеннаяПодсказка" id="9"/>
+											<ContextMenu name="рс_ОбъектКонтекстноеМеню" id="8"/>
+											<ExtendedTooltip name="рс_ОбъектРасширеннаяПодсказка" id="9"/>
 										</InputField>
 										<InputField name="Раздел" id="10">
 											<DataPath>Объект.Раздел</DataPath>
