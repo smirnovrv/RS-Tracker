@@ -7,6 +7,11 @@
 				<CommandName>Form.Command.КомандаЗаполнить</CommandName>
 				<ExtendedTooltip name="ФормаКомандаЗаполнитьРасширеннаяПодсказка" id="55"/>
 			</Button>
+			<Button name="ФормаКоличество" id="59">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Количество</CommandName>
+				<ExtendedTooltip name="ФормаКоличествоРасширеннаяПодсказка" id="60"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
@@ -257,6 +262,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаЗаполнить</Action>
+		</Command>
+		<Command name="Количество" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Количество</Action>
 		</Command>
 	</Commands>
 </Form>
