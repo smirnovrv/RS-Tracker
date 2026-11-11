@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -50,13 +50,13 @@
 								<InputField name="Код" id="1">
 									<DataPath>Объект.Code</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 									<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 								</InputField>
 								<CheckBoxField name="Используется" id="57">
 									<DataPath>Объект.Используется</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ИспользуетсяКонтекстноеМеню" id="58"/>
 									<ExtendedTooltip name="ИспользуетсяРасширеннаяПодсказка" id="59"/>
 								</CheckBoxField>
@@ -65,13 +65,21 @@
 						<InputField name="Наименование" id="4">
 							<DataPath>Объект.Description</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 						</InputField>
+						<InputField name="РазрезУчета" id="174">
+							<DataPath>Объект.РазрезУчета</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РазрезУчетаКонтекстноеМеню" id="175"/>
+							<ExtendedTooltip name="РазрезУчетаРасширеннаяПодсказка" id="176"/>
+						</InputField>
 						<InputField name="Вид" id="7">
 							<DataPath>Объект.Вид</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ВидКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="ВидРасширеннаяПодсказка" id="9"/>
@@ -88,16 +96,10 @@
 						<InputField name="Индентификатор" id="10">
 							<DataPath>Объект.Индентификатор</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="ИндентификаторКонтекстноеМеню" id="11"/>
 							<ExtendedTooltip name="ИндентификаторРасширеннаяПодсказка" id="12"/>
-						</InputField>
-						<InputField name="Раздел" id="13">
-							<DataPath>Объект.Раздел</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="РазделКонтекстноеМеню" id="14"/>
-							<ExtendedTooltip name="РазделРасширеннаяПодсказка" id="15"/>
 						</InputField>
 						<UsualGroup name="ГруппаВерсияКонфигурации" id="115">
 							<Representation>None</Representation>
@@ -107,6 +109,7 @@
 								<InputField name="ВерсияКонфигурации" id="117">
 									<DataPath>Объект.ВерсияКонфигурации</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ВерсияКонфигурацииКонтекстноеМеню" id="118"/>
 									<ExtendedTooltip name="ВерсияКонфигурацииРасширеннаяПодсказка" id="119"/>
@@ -132,6 +135,7 @@
 									<DataPath>Объект.КоличествоВБД</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="КоличествоВБДКонтекстноеМеню" id="125"/>
 									<ExtendedTooltip name="КоличествоВБДРасширеннаяПодсказка" id="126"/>
@@ -247,12 +251,14 @@
 										<LabelField name="рс_РеквизитыНомерСтроки" id="38">
 											<DataPath>Объект.рсРеквизиты.LineNumber</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="рс_РеквизитыНомерСтрокиКонтекстноеМеню" id="39"/>
 											<ExtendedTooltip name="рс_РеквизитыНомерСтрокиРасширеннаяПодсказка" id="40"/>
 										</LabelField>
 										<InputField name="рс_РеквизитыВидРеквизита" id="63">
 											<DataPath>Объект.рсРеквизиты.ВидРеквизита</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="рс_РеквизитыВидРеквизитаКонтекстноеМеню" id="64"/>
 											<ExtendedTooltip name="рс_РеквизитыВидРеквизитаРасширеннаяПодсказка" id="65"/>
@@ -260,6 +266,7 @@
 										<InputField name="рс_РеквизитырсТабличнаяЧасть" id="41">
 											<DataPath>Объект.рсРеквизиты.рсТабличнаяЧасть</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="рс_РеквизитырсТабличнаяЧастьКонтекстноеМеню" id="42"/>
 											<ExtendedTooltip name="рс_РеквизитырсТабличнаяЧастьРасширеннаяПодсказка" id="43"/>
@@ -267,6 +274,7 @@
 										<InputField name="рс_РеквизитыИмя" id="44">
 											<DataPath>Объект.рсРеквизиты.Имя</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="рс_РеквизитыИмяКонтекстноеМеню" id="45"/>
 											<ExtendedTooltip name="рс_РеквизитыИмяРасширеннаяПодсказка" id="46"/>
@@ -274,6 +282,7 @@
 										<InputField name="рс_РеквизитыТипРеквизита" id="66">
 											<DataPath>Объект.рсРеквизиты.ТипРеквизита</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="рс_РеквизитыТипРеквизитаКонтекстноеМеню" id="67"/>
 											<ExtendedTooltip name="рс_РеквизитыТипРеквизитаРасширеннаяПодсказка" id="68"/>
@@ -281,6 +290,7 @@
 										<InputField name="рс_РеквизитыТипОбъектовМетаданных" id="47">
 											<DataPath>Объект.рсРеквизиты.ТипОбъектовМетаданных</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="рс_РеквизитыТипОбъектовМетаданныхКонтекстноеМеню" id="48"/>
 											<ExtendedTooltip name="рс_РеквизитыТипОбъектовМетаданныхРасширеннаяПодсказка" id="49"/>
@@ -288,7 +298,7 @@
 										<CheckBoxField name="рс_РеквизитыОбязательный" id="50">
 											<DataPath>Объект.рсРеквизиты.Обязательный</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
+											<AutoEditMode>true</AutoEditMode>
 											<ContextMenu name="рс_РеквизитыОбязательныйКонтекстноеМеню" id="51"/>
 											<ExtendedTooltip name="рс_РеквизитыОбязательныйРасширеннаяПодсказка" id="52"/>
 										</CheckBoxField>
@@ -350,6 +360,7 @@
 								<InputField name="ИспользуемыеОбъектыВид" id="94">
 									<DataPath>Объект.ИспользуемыеОбъекты.Вид</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ИспользуемыеОбъектыВидКонтекстноеМеню" id="95"/>
 									<ExtendedTooltip name="ИспользуемыеОбъектыВидРасширеннаяПодсказка" id="96"/>
@@ -357,12 +368,14 @@
 								<LabelField name="ИспользуемыеОбъектыНомерСтроки" id="88">
 									<DataPath>Объект.ИспользуемыеОбъекты.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ИспользуемыеОбъектыНомерСтрокиКонтекстноеМеню" id="89"/>
 									<ExtendedTooltip name="ИспользуемыеОбъектыНомерСтрокиРасширеннаяПодсказка" id="90"/>
 								</LabelField>
 								<InputField name="ИспользуемыеОбъектыИмя" id="91">
 									<DataPath>Объект.ИспользуемыеОбъекты.Имя</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ИспользуемыеОбъектыИмяКонтекстноеМеню" id="92"/>
 									<ExtendedTooltip name="ИспользуемыеОбъектыИмяРасширеннаяПодсказка" id="93"/>
@@ -387,7 +400,7 @@
 					<ExtendedTooltip name="СтраницаТехническиеЗаданияРасширеннаяПодсказка" id="98"/>
 					<ChildItems>
 						<Table name="Список" id="99">
-							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 							<EnableStartDrag>true</EnableStartDrag>
 							<DataPath>Список</DataPath>
 							<RowPictureDataPath>~Список.DefaultPicture</RowPictureDataPath>
