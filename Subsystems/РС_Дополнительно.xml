@@ -20,6 +20,7 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.рс_Документация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.рс_ОписаниеСистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РС_ЖурналРегистрации</xr:Item>
 			</Content>
 		</Properties>
