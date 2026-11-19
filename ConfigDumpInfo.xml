@@ -151,7 +151,7 @@
 		<Metadata name="CommonPicture.ПрочтенноеПисьмо" id="6c3bb5af-4c3a-4702-94ab-9cc7480f9e84" configVersion="4212e9521c73e56d2733569f9577802270f2ebd8"/>
 		<Metadata name="CommonPicture.РедактироватьФайл" id="b93a1943-6776-4142-9a7e-4cd98b834f5b" configVersion="6e431d83bff870f321284df6bf391abcd007e91d"/>
 		<Metadata name="CommonPicture.СостоянияДокумента" id="78935bc1-63a1-4be1-839c-c3f1d765b4e8" configVersion="c6a8761feb73e37f5eb82f884bc36295f92b9d87"/>
-		<Metadata name="Configuration.Трекер" id="7627568a-b793-4181-ba50-2cdf3d698a7d" configVersion="351d5d3fd2e232f50805bd96407058ad15950e37"/>
+		<Metadata name="Configuration.Трекер" id="7627568a-b793-4181-ba50-2cdf3d698a7d" configVersion="95ca6f93c4e340c3ea0746a3cea8b496d42503f2"/>
 		<Metadata name="Configuration.Трекер.ManagedApplicationModule" id="f0ad61c6-043a-497f-b615-61640186281a.6" configVersion="7b424e7a9e8a40bb93ea930890bb8267ba0307d9"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя" id="bd1cbd77-4fe4-47a8-bb5d-235924110f6c" configVersion="f03550ddcc324c748fb79eac39912dd6d3129c78"/>
 		<Metadata name="DataProcessor.ЗадачиИОповещенияТекущегоПользователя.Form.Форма" id="27ad51ad-0142-40ef-bb87-14ac72c0c996" configVersion="01ff06901b56f8df387eab64bd16292cf4e0d1b9"/>
@@ -193,7 +193,7 @@
 		<Metadata name="DataProcessor.рс_ОписаниеСистемы.Template.Методология" id="b7e2a1c4-9d55-4e18-8f30-6a2c91d04e77" configVersion="597247d783133400562d6556bc13ee2018df20f0"/>
 		<Metadata name="DataProcessor.рс_ОписаниеСистемы.Template.Методология.Template" id="b7e2a1c4-9d55-4e18-8f30-6a2c91d04e77.0" configVersion="e3d7424b9662a1b694580c3f40e433ba8ee93ac1"/>
 		<Metadata name="DataProcessor.рс_ОписаниеСистемы.Template.ОписаниеСистемы" id="a1e8c4d2-6b30-4f15-9e77-3c8d2a91f046" configVersion="2fb2278f350b9b599e413fc0c77d388c140973b6"/>
-		<Metadata name="DataProcessor.рс_ОписаниеСистемы.Template.ОписаниеСистемы.Template" id="a1e8c4d2-6b30-4f15-9e77-3c8d2a91f046.0" configVersion="c2d9710c3657b384c18089486cc90a0236ee17e8"/>
+		<Metadata name="DataProcessor.рс_ОписаниеСистемы.Template.ОписаниеСистемы.Template" id="a1e8c4d2-6b30-4f15-9e77-3c8d2a91f046.0" configVersion="1a59333418c358d3ce9eacac2a8f37a0dce39ec8"/>
 		<Metadata name="DefinedType.ВладелецПрисоединенныхФайлов" id="4d9b5450-3ed0-4b50-9f98-f270fe2f06c1" configVersion="06ce2836f21ce9c510ed77582f9f4def58c10526"/>
 		<Metadata name="DefinedType.ВладелецФайлов" id="adf4ebea-299d-4efb-a110-56b143f1e1ce" configVersion="9a666c6c8320fb1343e2794d12db9fce00a7dc0b"/>
 		<Metadata name="Enum.ВидыСвойств" id="fcb3c89b-3ce6-466d-b5d0-708382775f8f" configVersion="7cb33b69695952579c4ab418f782e3e3968e8108">
